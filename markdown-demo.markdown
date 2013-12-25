@@ -18,6 +18,8 @@ h1,h2,h3,h4,h5,p.short { line-height: 0%; }
 
 Nathaniel Beaver, August 6th, 2013.
 
+The markdown source for this document is [here](markdown-demo.markdown).
+
 # Table of Contents #
 [Links](#Links)  
 [Lists](#Lists)  
@@ -25,9 +27,11 @@ Nathaniel Beaver, August 6th, 2013.
 [Fonts](#Fonts)  
 [Reserved characters](#Reserved characters)  
 [Tables](#Tables)  
-[Show me the source code](#Source code)  
+[Source code for the standard markdown to html generator](#Source code)  
 
-Unlike, e.g., LaTeX, Markdown doesn't automatically make a table of contents. But you can totally make one manually using standard HTML anchor links. See here for more: 
+Unlike, e.g., LaTeX, Markdown doesn't automatically make a table of contents.
+But you can totally make one manually using standard HTML anchor links.
+See here for more: 
 
 <http://stackoverflow.com/questions/5319754/cross-reference-named-anchor-in-markdown>
 
