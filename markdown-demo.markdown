@@ -37,8 +37,8 @@ See here for more:
 
 <http://blog.justin.kelly.org.au/anchor-links-in-markdown/>
 
-# Links #
 <a id="Links"></a>
+# Links #
 
 ## Web links ##
 Just surround normal URIs with `<` and `>` to get automatic links,
@@ -59,8 +59,8 @@ although `~` does not work for home directories.
 - [Parent directory](../)  
 - [Root directory](/)  
 
-# Lists #
 <a id="Lists"></a>
+# Lists #
 It's easy to forget to leave a space in front of a list.
 You must do this, since a [list is a block element in Markdown](http://daringfireball.net/projects/markdown/syntax#block).
 
@@ -126,8 +126,8 @@ But it makes me nutty looking at it, so I like to use `0` for everything.
 0. 1415926
 0. 71828
 
-# Code blocks #
 <a id="Code blocks"></a>
+# Code blocks #
 Remember to leave a line in front of a code block, or it will not work.
 
 Like this:
@@ -138,14 +138,14 @@ Not this:
     print "Hello, world!"
 
 
-# Fonts #
 <a id="Fonts"></a>
+# Fonts #
 Markdown doesn't have fonts, per se,
 but it does have [emphasis](http://daringfireball.net/projects/markdown/syntax#em).
 **Wow!!!** That was _amazing!_
 
-# Reserved characters #
 <a id="Reserved characters"></a>
+# Reserved characters #
 
 [(Not like this.)](http://tvtropes.org/pmwiki/pmwiki.php/Main/TheStoic)
 
@@ -169,8 +169,8 @@ put them in backticks, or indent four spaces to get a code block.
 You may have noticed that curly braces `{` and `}` do not serve any function in basic markdown.
 [You aren't the only one.](http://meta.stackoverflow.com/questions/29063/why-is-a-special-character-in-markdown)
 
-# Tables #
 <a id="Tables"></a>
+# Tables #
 Standard Markdown does not do tables.
 The standard docs point out that Markdown is not supposed to be a replacement for HTML,
 but to make it easy to "[write for the web](http://daringfireball.net/projects/markdown/syntax#html)".
@@ -181,8 +181,8 @@ There are extensions to Markdown that extend it to tables, as well as many other
 
 <https://en.wikipedia.org/wiki/Lightweight_markup_language#Comparison_of_language_features>
 
-# Source code for the standard markdown to HTML generator #
 <a id="Source code"></a>
+# Source code for the standard markdown to HTML generator #
 
 * CPAN: <http://search.cpan.org/~bobtfish/Text-Markdown-1.000031/lib/Text/Markdown.pm>
 * Github: <https://github.com/bobtfish/text-markdown>
