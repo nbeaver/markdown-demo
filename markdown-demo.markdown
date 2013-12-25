@@ -27,7 +27,7 @@ The markdown source for this document is [here](markdown-demo.markdown).
 [Fonts](#Fonts)  
 [Reserved characters](#Reserved characters)  
 [Tables](#Tables)  
-[Source code for the standard markdown to html generator](#Source code)  
+[Source code for the standard markdown to HTML generator](#Source code)  
 
 Unlike, e.g., LaTeX, Markdown doesn't automatically make a table of contents.
 But you can totally make one manually using standard HTML anchor links.
@@ -41,13 +41,17 @@ See here for more:
 <a id="Links"></a>
 
 ## Web links ##
-Just surround normal URIs with `<` and `>` to get automatic links, such as this one to the Markdown spec: <http://daringfireball.net/projects/markdown/syntax#autolink>
+Just surround normal URIs with `<` and `>` to get automatic links,
+such as this one to the Markdown spec: <http://daringfireball.net/projects/markdown/syntax#autolink>
 
-If the URI is horrendously long, it's better to use [manual Markdown links](http://daringfireball.net/projects/markdown/syntax#link).
+If the URI is horrendously long,
+it's better to use [manual Markdown links](http://daringfireball.net/projects/markdown/syntax#link).
 ## Email links ##
 Similarly, use `<mailto:somebody@somewhere.com>` to get email links. <mailto:somebody@somewhere.com>
 ## Local links ##
-You can also get local links to files or directories. The paths can be relative or absolute, although `~` does not work for home directories.
+You can also get local links to files or directories.
+The paths can be relative or absolute,
+although `~` does not work for home directories.
 
 - [Status log](/var/log/syslog)  
 - [Temp files directory](/tmp/)  
@@ -57,7 +61,8 @@ You can also get local links to files or directories. The paths can be relative 
 
 # Lists #
 <a id="Lists"></a>
-It's easy to forget to leave a space in front of a list. You must do this, since a [list is a block element in Markdown](http://daringfireball.net/projects/markdown/syntax#block).
+It's easy to forget to leave a space in front of a list.
+You must do this, since a [list is a block element in Markdown](http://daringfireball.net/projects/markdown/syntax#block).
 
 Do this:
 
@@ -75,7 +80,7 @@ or this:
 * It's a little anticlimactic since they're invisible.
 * This puts a linebreak but does not produce the list we want.
 
-I also tend to forget about lists is that you can do multi-paragraph lists, you just need to remember to indent.
+You can do multi-paragraph lists, you just need to remember to indent.
 
 From the Markdown docs:
 
@@ -135,7 +140,8 @@ Not this:
 
 # Fonts #
 <a id="Fonts"></a>
-Markdown doesn't have fonts, per se, but it does have [emphasis](http://daringfireball.net/projects/markdown/syntax#em).
+Markdown doesn't have fonts, per se,
+but it does have [emphasis](http://daringfireball.net/projects/markdown/syntax#em).
 **Wow!!!** That was _amazing!_
 
 # Reserved characters #
@@ -143,7 +149,9 @@ Markdown doesn't have fonts, per se, but it does have [emphasis](http://daringfi
 
 [(Not like this.)](http://tvtropes.org/pmwiki/pmwiki.php/Main/TheStoic)
 
-Markdown thinks these characters are special and will try to turn them into HTML unless you backslashify them, put them in backticks, or indent four spaces to get a code block.
+Markdown thinks these characters are special
+and will try to turn them into HTML unless you backslashify them,
+put them in backticks, or indent four spaces to get a code block.
 
     \ 
     ` 
@@ -158,6 +166,8 @@ Markdown thinks these characters are special and will try to turn them into HTML
     . 
     ! 
 
+You may have noticed that curly braces `{` and `}` do not serve any function in basic markdown.
+[You aren't the only one.](http://meta.stackoverflow.com/questions/29063/why-is-a-special-character-in-markdown)
 
 # Tables #
 <a id="Tables"></a>
@@ -171,7 +181,8 @@ There are extensions to Markdown that extend it to tables, as well as many other
 
 <https://en.wikipedia.org/wiki/Lightweight_markup_language#Comparison_of_language_features>
 
-# Source code #
+# Source code for the standard markdown to HTML generator #
+<a id="Source code"></a>
 
 * CPAN: <http://search.cpan.org/~bobtfish/Text-Markdown-1.000031/lib/Text/Markdown.pm>
 * Github: <https://github.com/bobtfish/text-markdown>
