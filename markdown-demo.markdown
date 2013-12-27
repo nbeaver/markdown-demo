@@ -153,18 +153,18 @@ Markdown thinks these characters are special
 and will try to turn them into HTML unless you backslashify them,
 put them in backticks, or indent four spaces to get a code block.
 
-    \ 
-    ` 
-    * 
-    _ 
+    \
+    `
+    *
+    _
     {}
     []
     ()
-    # 
-    + 
-    - 
-    . 
-    ! 
+    #
+    +
+    -
+    .
+    !
 
 You may have noticed that curly braces `{` and `}` do not serve any function in basic markdown.
 [You aren't the only one.](http://meta.stackoverflow.com/questions/29063/why-is-a-special-character-in-markdown)
