@@ -1,10 +1,10 @@
-all: markdown-demo.html markdown-demo.zip 
+all: README.html README.zip 
 
-markdown-demo.html : markdown-demo.markdown
-	markdown markdown-demo.markdown > markdown-demo.html
-markdown-demo.zip : markdown-demo.markdown markdown-demo.html
-	zip --update markdown-demo.zip markdown-demo.html markdown-demo.markdown
+README.html : README.markdown Makefile
+	markdown README.markdown > README.html
+README.zip : README.markdown README.html Makefile
+	zip --update README.zip README.html README.markdown
 
 clean:
-	rm --force markdown-demo.html
-	rm --force markdown-demo.zip
+	rm --force README.html
+	rm --force README.zip

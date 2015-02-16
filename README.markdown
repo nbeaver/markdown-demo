@@ -1,19 +1,3 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
-<!-- Use HTML style comments and tags. Not stricly markdown, but the parser doesn't care. -->
-<html>
-<head>
-<title>Markdown Demo</title>
-<!-- You can also use CSS to customize the markdown headers. -->
-<!-- This squeezes the headers so they take up less space and are easier to print. -->
-<!-- You can uncomment it to see the effect. -->
-<!--
-<style type="text/css">
-h1,h2,h3,h4,h5,p.inline { display: inline; }
-h1,h2,h3,h4,h5,p.short { line-height: 0%; }
-</style>
--->
-</head> 
-
 # <center>A Markdown Demo</center> #
 
 Nathaniel Beaver, August 6th, 2013.
