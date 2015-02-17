@@ -2,7 +2,7 @@
 
 Nathaniel Beaver, August 6th, 2013.
 
-The markdown source for this document is [here](markdown-demo.markdown).
+The markdown source for this document is [here](README.markdown).
 
 # Table of Contents #
 [Links](#Links)  
