@@ -14,7 +14,7 @@ The markdown source for this document is [here](README.markdown).
 [Source code for the standard markdown to HTML generator](#Source code)  
 
 Unlike, e.g., LaTeX, Markdown doesn't automatically make a table of contents.
-But you can totally make one manually using standard HTML anchor links.
+But you can make one manually using standard HTML anchor links.
 See here for more: 
 
 <http://stackoverflow.com/questions/5319754/cross-reference-named-anchor-in-markdown>
@@ -131,10 +131,9 @@ but it does have [emphasis](http://daringfireball.net/projects/markdown/syntax#e
 <a id="Reserved characters"></a>
 # Reserved characters #
 
-[(Not like this.)](http://tvtropes.org/pmwiki/pmwiki.php/Main/TheStoic)
-
 Markdown thinks these characters are special
-and will try to turn them into HTML unless you backslashify them,
+and will try to turn them into HTML
+unless you escape them with a backslash,
 put them in backticks, or indent four spaces to get a code block.
 
     \
