@@ -81,17 +81,17 @@ or this:
 
 You can do multi-paragraph lists, you just need to remember to indent.
 
-From the Markdown docs:
+From [the Markdown docs](https://daringfireball.net/projects/markdown/syntax):
 
-1.  This is a list item with two paragraphs. Lorem ipsum dolor
-    sit amet, consectetuer adipiscing elit. Aliquam hendrerit
-    mi posuere lectus.
-
-    Vestibulum enim wisi, viverra nec, fringilla in, laoreet
-    vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
-    sit amet velit.
-
-2.  Suspendisse id sem consectetuer libero luctus adipiscing.
+> 1.  This is a list item with two paragraphs. Lorem ipsum dolor
+>     sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+>     mi posuere lectus.
+>
+>     Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+>     vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+>     sit amet velit.
+>
+> 2.  Suspendisse id sem consectetuer libero luctus adipiscing.
 
 If you don't indent, you get this:
 
