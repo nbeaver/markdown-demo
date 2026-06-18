@@ -5,13 +5,18 @@ Nathaniel Beaver, August 6th, 2013.
 The markdown source for this document is [here](README.markdown).
 
 # Table of Contents
-[Links](#Links)  
-[Lists](#Lists)  
-[Code blocks](#Code blocks)  
-[Fonts](#Fonts)  
-[Reserved characters](#Reserved characters)  
-[Tables](#Tables)  
-[Source code for the standard markdown to HTML generator](#Source code)  
+
+- [Links](#Links)
+  - [Web links](#Web links)
+  - [Email links](#Email links)
+  - [Local links](#Local links)
+- [Lists](#Lists)
+- [Code blocks](#Code blocks)
+- [Images](#Images)
+- [Fonts](#Fonts)
+- [Reserved characters](#Reserved characters)
+- [Tables](#Tables)
+- [Source code for the standard markdown to HTML generator](#Source code)
 
 Unlike, e.g., LaTeX, Markdown doesn't automatically make a table of contents.
 But you can make one manually using standard HTML anchor links.
