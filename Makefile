@@ -1,11 +1,21 @@
-all: README.html README.zip 
+MARKDOWN:=$(wildcard *.markdown)
+MD:=$(wildcard *.md)
+HTML:=$(patsubst %.markdown,%.html,$(MARKDOWN)) $(patsubst %.md,%.html,$(MD))
+IMG:=$(wildcard *.jpg) $(wildcard *.png)
+ZIP:=README.zip
 
-README.html : README.markdown Makefile
-	markdown README.markdown > README.html
+.PHONY: all
+all: $(HTML) $(ZIP)
 
-README.zip : README.markdown README.html Makefile
-	zip --update README.zip README.html README.markdown
+%.html: %.markdown
+	markdown $< > $@
 
+%.html: %.md
+	markdown $< > $@
+
+README.zip : Makefile $(IMG) $(MARKDOWN) $(MD) $(HTML)
+	zip --filesync --quiet "$@" $^
+
+.PHONY: clean
 clean:
-	rm --force README.html
-	rm --force README.zip
+	rm --force -- $(HTML) $(ZIP)
