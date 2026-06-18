@@ -29,6 +29,7 @@ See here for more:
 <a id="Links"></a>
 # Links
 
+<a id="Web links"></a>
 ## Web links
 Just surround normal URIs with `<` and `>` to get automatic links,
 such as this one to the Markdown spec: <http://daringfireball.net/projects/markdown/syntax#autolink>
@@ -36,9 +37,11 @@ such as this one to the Markdown spec: <http://daringfireball.net/projects/markd
 If the URI is horrendously long,
 it's better to use [manual Markdown links](http://daringfireball.net/projects/markdown/syntax#link).
 
+<a id="Email links"></a>
 ## Email links
 Similarly, use `<mailto:somebody@somewhere.com>` to get email links. <mailto:somebody@somewhere.com>
 
+<a id="Local links"></a>
 ## Local links
 You can also get local links to files or directories.
 The paths can be relative or absolute,
