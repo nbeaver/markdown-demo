@@ -1,10 +1,10 @@
-# <center>A Markdown Demo</center> #
+# <center>A Markdown Demo</center>
 
 Nathaniel Beaver, August 6th, 2013.
 
 The markdown source for this document is [here](README.markdown).
 
-# Table of Contents #
+# Table of Contents
 [Links](#Links)  
 [Lists](#Lists)  
 [Code blocks](#Code blocks)  
@@ -22,17 +22,19 @@ See here for more:
 <http://blog.justin.kelly.org.au/anchor-links-in-markdown/>
 
 <a id="Links"></a>
-# Links #
+# Links
 
-## Web links ##
+## Web links
 Just surround normal URIs with `<` and `>` to get automatic links,
 such as this one to the Markdown spec: <http://daringfireball.net/projects/markdown/syntax#autolink>
 
 If the URI is horrendously long,
 it's better to use [manual Markdown links](http://daringfireball.net/projects/markdown/syntax#link).
-## Email links ##
+
+## Email links
 Similarly, use `<mailto:somebody@somewhere.com>` to get email links. <mailto:somebody@somewhere.com>
-## Local links ##
+
+## Local links
 You can also get local links to files or directories.
 The paths can be relative or absolute,
 although `~` does not work for home directories.
@@ -44,7 +46,7 @@ although `~` does not work for home directories.
 - [Root directory](/)  
 
 <a id="Lists"></a>
-# Lists #
+# Lists
 It's easy to forget to leave a space in front of a list.
 You must do this, since a [list is a block element in Markdown](http://daringfireball.net/projects/markdown/syntax#block).
 
@@ -111,7 +113,7 @@ But it makes me nutty looking at it, so I like to use `0` for everything.
 0. 71828
 
 <a id="Code blocks"></a>
-# Code blocks #
+# Code blocks
 Remember to leave a line in front of a code block, or it will not work.
 
 Like this:
@@ -123,13 +125,13 @@ Not this:
 
 
 <a id="Fonts"></a>
-# Fonts #
+# Fonts
 Markdown doesn't have fonts, per se,
 but it does have [emphasis](http://daringfireball.net/projects/markdown/syntax#em).
 **Wow!!!** That was _amazing!_
 
 <a id="Reserved characters"></a>
-# Reserved characters #
+# Reserved characters
 
 Markdown thinks these characters are special
 and will try to turn them into HTML
@@ -153,7 +155,7 @@ You may have noticed that curly braces `{` and `}` do not serve any function in 
 [You aren't the only one.](http://meta.stackoverflow.com/questions/29063/why-is-a-special-character-in-markdown)
 
 <a id="Tables"></a>
-# Tables #
+# Tables
 Standard Markdown does not do tables.
 The standard docs point out that Markdown is not supposed to be a replacement for HTML,
 but to make it easy to "[write for the web](http://daringfireball.net/projects/markdown/syntax#html)".
@@ -165,7 +167,7 @@ There are extensions to Markdown that extend it to tables, as well as many other
 <https://en.wikipedia.org/wiki/Lightweight_markup_language#Comparison_of_language_features>
 
 <a id="Source code"></a>
-# Source code for the standard markdown to HTML generator #
+# Source code for the standard markdown to HTML generator
 
 * CPAN: <http://search.cpan.org/~bobtfish/Text-Markdown-1.000031/lib/Text/Markdown.pm>
 * Github: <https://github.com/bobtfish/text-markdown>
