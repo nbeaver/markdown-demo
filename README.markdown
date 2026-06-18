@@ -124,6 +124,20 @@ Not this:
     print "Hello, world!"
 
 
+<a id="Images"></a>
+# Images
+
+Syntax:
+
+    ![alt text](path/to/image.jpg)
+    ![alt text](https://example.org/link/to/image.jpg)
+
+Example:
+
+    ![birthday paradox graph](./birthday-paradox.png)
+
+![birthday paradox graph](birthday-paradox.png)
+
 <a id="Fonts"></a>
 # Fonts
 Markdown doesn't have fonts, per se,
