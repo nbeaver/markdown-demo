@@ -115,15 +115,15 @@ Also, this is a valid numbered list:
 3. 1415926
 2. 71828
 
-But it makes me nutty looking at it, so I like to use `0` for everything.
+But it makes me nutty looking at it, so I like to use `1` for everything.
 
-     0. Life, the Universe, and Everything.
-     0. 1415926
-     0. 71828
+     1. Life, the Universe, and Everything.
+     1. 1415926
+     1. 71828
 
-0. Life, the Universe, and Everything.
-0. 1415926
-0. 71828
+1. Life, the Universe, and Everything.
+1. 1415926
+1. 71828
 
 <a id="Code blocks"></a>
 # Code blocks
