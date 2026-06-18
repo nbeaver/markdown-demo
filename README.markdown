@@ -20,7 +20,7 @@ The markdown source for this document is [here](README.markdown).
 
 Unlike, e.g., LaTeX, Markdown doesn't automatically make a table of contents.
 But you can make one manually using standard HTML anchor links.
-See here for more: 
+See here for more:
 
 <http://stackoverflow.com/questions/5319754/cross-reference-named-anchor-in-markdown>
 
@@ -44,11 +44,11 @@ You can also get local links to files or directories.
 The paths can be relative or absolute,
 although `~` does not work for home directories.
 
-- [Status log](/var/log/syslog)  
-- [Temp files directory](/tmp/)  
-- [Current directory](./)  
-- [Parent directory](../)  
-- [Root directory](/)  
+- [Status log](/var/log/syslog)
+- [Temp files directory](/tmp/)
+- [Current directory](./)
+- [Parent directory](../)
+- [Root directory](/)
 
 <a id="Lists"></a>
 # Lists
@@ -66,7 +66,7 @@ Not this:
 * Second!
 * Third!
 
-or this:  
+or this:
 * That line above totally had two spaces.
 * It's a little anticlimactic since they're invisible.
 * This puts a linebreak but does not produce the list we want.
