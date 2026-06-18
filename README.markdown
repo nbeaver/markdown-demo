@@ -47,11 +47,16 @@ You can also get local links to files or directories.
 The paths can be relative or absolute,
 although `~` does not work for home directories.
 
-- [Status log](/var/log/syslog)
-- [Temp files directory](/tmp/)
-- [Current directory](./)
-- [Parent directory](../)
-- [Root directory](/)
+- Cross-platform
+  - [Current directory](./)
+  - [Parent directory](../)
+- Linux
+  - [Status log](/var/log/syslog)
+  - [Temp files directory](/tmp/)
+  - [Root directory](/)
+- Windows
+  - [file:///C:/Program%20Files/](C:\\Program Files\\)
+  - [file:///C:/Users/](C:\\Users\\)
 
 <a id="Lists"></a>
 # Lists
