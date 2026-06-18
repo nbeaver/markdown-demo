@@ -2,7 +2,7 @@ MARKDOWN:=$(wildcard *.markdown)
 MD:=$(wildcard *.md)
 HTML:=$(patsubst %.markdown,%.html,$(MARKDOWN)) $(patsubst %.md,%.html,$(MD))
 IMG:=$(wildcard *.jpg) $(wildcard *.png)
-ZIP:=README.zip
+ZIP:=readme.zip
 
 .PHONY: all
 all: $(HTML) $(ZIP)
@@ -13,7 +13,7 @@ all: $(HTML) $(ZIP)
 %.html: %.md
 	markdown $< > $@
 
-README.zip : Makefile $(IMG) $(MARKDOWN) $(MD) $(HTML)
+$(ZIP) : Makefile $(IMG) $(MARKDOWN) $(MD) $(HTML)
 	zip --filesync --quiet "$@" $^
 
 .PHONY: clean
